@@ -46,7 +46,7 @@ use \CryptoAPIs\ObjectSerializer;
  */
 class BroadcastTransactionFailDataItem implements ModelInterface, ArrayAccess, \JsonSerializable
 {
-    public const DISCRIMINATOR = null;
+    const DISCRIMINATOR = null;
 
     /**
       * The original name of the model.

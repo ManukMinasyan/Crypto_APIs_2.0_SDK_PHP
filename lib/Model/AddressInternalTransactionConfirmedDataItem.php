@@ -46,7 +46,7 @@ use \CryptoAPIs\ObjectSerializer;
  */
 class AddressInternalTransactionConfirmedDataItem implements ModelInterface, ArrayAccess, \JsonSerializable
 {
-    public const DISCRIMINATOR = null;
+    const DISCRIMINATOR = null;
 
     /**
       * The original name of the model.

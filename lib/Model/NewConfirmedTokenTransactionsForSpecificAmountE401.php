@@ -45,7 +45,7 @@ use \CryptoAPIs\ObjectSerializer;
  */
 class NewConfirmedTokenTransactionsForSpecificAmountE401 implements ModelInterface, ArrayAccess, \JsonSerializable
 {
-    public const DISCRIMINATOR = null;
+    const DISCRIMINATOR = null;
 
     /**
       * The original name of the model.

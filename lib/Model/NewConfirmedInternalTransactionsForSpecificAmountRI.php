@@ -45,7 +45,7 @@ use \CryptoAPIs\ObjectSerializer;
  */
 class NewConfirmedInternalTransactionsForSpecificAmountRI implements ModelInterface, ArrayAccess, \JsonSerializable
 {
-    public const DISCRIMINATOR = null;
+    const DISCRIMINATOR = null;
 
     /**
       * The original name of the model.

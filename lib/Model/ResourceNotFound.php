@@ -46,7 +46,7 @@ use \CryptoAPIs\ObjectSerializer;
  */
 class ResourceNotFound implements ModelInterface, ArrayAccess, \JsonSerializable
 {
-    public const DISCRIMINATOR = null;
+    const DISCRIMINATOR = null;
 
     /**
       * The original name of the model.

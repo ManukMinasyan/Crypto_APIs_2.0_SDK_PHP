@@ -46,7 +46,7 @@ use \CryptoAPIs\ObjectSerializer;
  */
 class GetWalletTransactionDetailsByTransactionIDRIBSBCScriptSig implements ModelInterface, ArrayAccess, \JsonSerializable
 {
-    public const DISCRIMINATOR = null;
+    const DISCRIMINATOR = null;
 
     /**
       * The original name of the model.

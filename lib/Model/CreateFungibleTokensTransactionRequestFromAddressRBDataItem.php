@@ -45,7 +45,7 @@ use \CryptoAPIs\ObjectSerializer;
  */
 class CreateFungibleTokensTransactionRequestFromAddressRBDataItem implements ModelInterface, ArrayAccess, \JsonSerializable
 {
-    public const DISCRIMINATOR = null;
+    const DISCRIMINATOR = null;
 
     /**
       * The original name of the model.

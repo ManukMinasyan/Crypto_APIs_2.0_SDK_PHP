@@ -46,7 +46,7 @@ use \CryptoAPIs\ObjectSerializer;
  */
 class DecodeRawTransactionHexRISB22 implements ModelInterface, ArrayAccess, \JsonSerializable
 {
-    public const DISCRIMINATOR = null;
+    const DISCRIMINATOR = null;
 
     /**
       * The original name of the model.

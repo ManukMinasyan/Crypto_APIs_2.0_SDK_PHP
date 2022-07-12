@@ -45,7 +45,7 @@ use \CryptoAPIs\ObjectSerializer;
  */
 class ListTransactionsByBlockHeightRIBSLVout implements ModelInterface, ArrayAccess, \JsonSerializable
 {
-    public const DISCRIMINATOR = null;
+    const DISCRIMINATOR = null;
 
     /**
       * The original name of the model.
